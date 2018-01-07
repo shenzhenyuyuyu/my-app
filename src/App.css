@@ -1,1 +1,11 @@
+.navigation-bar .navigation-bar-fix {
+    margin-left: 240px;
+    right: auto;
+    position: fixed;
+}
+
+.content-container {
+    margin-left: 240px;
+    margin-top: 64px;
+}
 

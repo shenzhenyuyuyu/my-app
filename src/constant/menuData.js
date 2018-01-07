@@ -1,32 +1,28 @@
 import React from 'react';
-import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
+import { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import InboxIcon from 'material-ui-icons/MoveToInbox';
-import DraftsIcon from 'material-ui-icons/Drafts';
 import StarIcon from 'material-ui-icons/Star';
 import SendIcon from 'material-ui-icons/Send';
 
 export const menuListItems = (
     <div>
         <ListItem button>
-            {/*<ListItemIcon>*/}
-                {/*<InboxIcon />*/}
-            {/*</ListItemIcon>*/}
-            {/*<ListItemText primary="Inbox" />*/}
-            <span>test1</span>
+            <ListItemIcon>
+                <InboxIcon />
+            </ListItemIcon>
+            <ListItemText primary="test 1" />
         </ListItem>
         <ListItem button>
-            {/*<ListItemIcon>*/}
-                {/*<StarIcon />*/}
-            {/*</ListItemIcon>*/}
-            {/*<ListItemText primary="Starred" />*/}
-            <span>test2</span>
+            <ListItemIcon>
+                <StarIcon />
+            </ListItemIcon>
+            <ListItemText primary="test 2" />
         </ListItem>
         <ListItem button>
-            {/*<ListItemIcon>*/}
-                {/*<SendIcon />*/}
-            {/*</ListItemIcon>*/}
-            {/*<ListItemText primary="Send mail" />*/}
-            <span>test3</span>
+            <ListItemIcon>
+                <SendIcon />
+            </ListItemIcon>
+            <ListItemText primary="test 3" />
         </ListItem>
     </div>
 );
